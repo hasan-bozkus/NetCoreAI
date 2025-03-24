@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Projet02_ApiConus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Projet03_RapidApi", "NetCoreAI.Projet03_RapidApi\NetCoreAI.Projet03_RapidApi.csproj", "{2A93964B-81D2-4D29-B28F-8BF8363FAA27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Projet04_OpenAIChat", "NetCoreAI.Projet04_OpenAIChat\NetCoreAI.Projet04_OpenAIChat.csproj", "{8A2B3C51-1964-4BEF-8C98-66D43122D3D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{2A93964B-81D2-4D29-B28F-8BF8363FAA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A93964B-81D2-4D29-B28F-8BF8363FAA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A93964B-81D2-4D29-B28F-8BF8363FAA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2B3C51-1964-4BEF-8C98-66D43122D3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2B3C51-1964-4BEF-8C98-66D43122D3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2B3C51-1964-4BEF-8C98-66D43122D3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2B3C51-1964-4BEF-8C98-66D43122D3D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
