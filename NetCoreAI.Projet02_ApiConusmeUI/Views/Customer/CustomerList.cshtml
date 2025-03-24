@@ -1,0 +1,32 @@
+﻿@model List<NetCoreAI.Projet02_ApiConusmeUI.Dtos.ResultCustomerDto>
+@{
+    Layout = null;
+    int count = 0;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container">
+    <br />
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Müşteri Adı Soyadı</th>
+            <th>Bakiye</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
+        </tr>
+        @foreach(var item in Model)
+        {
+            count++;
+
+            <tr>
+                <th>@count</th>
+                <td>@item.CustomerName @item.CustomerSurname</td>
+                <td>@item.CustomerBalance</td>
+                <td><a href="/Customer/DeleteCustomer/@item.CustomerId" class="btn btn-danger">Sil</a></td>
+                <td><a href="/Customer/UpdateCustomer/@item.CustomerId" class="btn btn-success">Güncelle</a></td>
+            </tr>
+        }
+    </table>
+    <a href="/Customer/CreateCustomer" class="btn btn-primary">Yeni Müşteri Girişi</a>
+</div>
