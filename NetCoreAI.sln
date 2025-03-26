@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Projet05_OpenWhis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Projet06_DallEImageGeneration", "NetCoreAI.Projet06_DallEImageGeneration\NetCoreAI.Projet06_DallEImageGeneration.csproj", "{69B85AB2-7F2D-4930-B390-8D7A8B3616A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Projet07_TesseractOcr", "NetCoreAI.Projet07_TesseractOcr\NetCoreAI.Projet07_TesseractOcr.csproj", "{710F5C52-B179-470E-8C1A-EE528DABF61D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{69B85AB2-7F2D-4930-B390-8D7A8B3616A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69B85AB2-7F2D-4930-B390-8D7A8B3616A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69B85AB2-7F2D-4930-B390-8D7A8B3616A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710F5C52-B179-470E-8C1A-EE528DABF61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710F5C52-B179-470E-8C1A-EE528DABF61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710F5C52-B179-470E-8C1A-EE528DABF61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710F5C52-B179-470E-8C1A-EE528DABF61D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
