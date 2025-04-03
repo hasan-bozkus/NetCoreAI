@@ -6,6 +6,8 @@ class Program
 {
     static async Task Main(string[] args)
     {
+        Console.OutputEncoding = Encoding.UTF8;
+
         var ApiKey = "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";
         using var httpClinet = new HttpClient();
         httpClinet.DefaultRequestHeaders.Add("Authorization", $"Bearer {ApiKey}");
