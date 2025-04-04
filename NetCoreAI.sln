@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Projet11_TextToSp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Projet12_SentimentAIApp", "NetCoreAI.Projet12_SentimentAIApp\NetCoreAI.Projet12_SentimentAIApp.csproj", "{81EFB765-6AB0-4FF3-B2ED-6B3DF7BE3323}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Projet13_SentimentWithDegreeAIApp", "NetCoreAI.Projet13_SentimentWithDegreeAIApp\NetCoreAI.Projet13_SentimentWithDegreeAIApp.csproj", "{18003A46-38AE-4E18-B7BE-DE862A45D49D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{81EFB765-6AB0-4FF3-B2ED-6B3DF7BE3323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81EFB765-6AB0-4FF3-B2ED-6B3DF7BE3323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81EFB765-6AB0-4FF3-B2ED-6B3DF7BE3323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18003A46-38AE-4E18-B7BE-DE862A45D49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18003A46-38AE-4E18-B7BE-DE862A45D49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18003A46-38AE-4E18-B7BE-DE862A45D49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18003A46-38AE-4E18-B7BE-DE862A45D49D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
