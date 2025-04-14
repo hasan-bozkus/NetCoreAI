@@ -5,6 +5,8 @@ namespace NetCoreAI20_RecipeSuggestionWithOpenAI.Models
 {
     public class OpenAIService
     {
+        //proje üzerinde bulunan bütün api keyler ezildi!
+
         private readonly HttpClient _httpClient;
         private const string OpenAiUrl = "https://api.openai.com/v1/chat/completions";
         private const string apiKey = "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";
