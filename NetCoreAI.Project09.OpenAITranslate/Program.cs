@@ -10,7 +10,7 @@ class Program
         string apiKey = "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";
         string translatedText = await TranslateTextToEnglish(inputText, apiKey);
 
-        if(!string.IsNullOrEmpty(translatedText))
+        if (!string.IsNullOrEmpty(translatedText))
         {
             Console.WriteLine();
             Console.WriteLine($"Çeviri (inglizce): {translatedText}");

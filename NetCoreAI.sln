@@ -18,8 +18,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Project07_Tessera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Project08_GoogleCloudVision", "NetCoreAI.Projet08_GoogleCloudVision\NetCoreAI.Project08_GoogleCloudVision.csproj", "{0AA5D116-8BB2-4691-AD0B-14DFFBDDE7EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Project09_OpenAITranslate", "NetCoreAI.09_OpenAITranslate\NetCoreAI.Project09_OpenAITranslate.csproj", "{581FFF65-37D2-491A-90AA-FFE802110FE1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Project10_TextToSpeech", "NetCoreAI.Projet10_TextToSpeech\NetCoreAI.Project10_TextToSpeech.csproj", "{EA5FE59E-260E-4806-B017-37F973C8F973}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Project11_TextToSpeechWithOpenAI", "NetCoreAI.Projet11_TextToSpeechWithOpenAI\NetCoreAI.Project11_TextToSpeechWithOpenAI.csproj", "{1B03C998-F86B-411C-838A-4371AF03ACC3}"
@@ -41,6 +39,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Project19_CreateStoryWithAI", "NetCoreAI19_CreateStoryWithAI\NetCoreAI.Project19_CreateStoryWithAI.csproj", "{F3A7FC15-CAB9-44F8-8B80-BB0689F22E7E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Project20_RecipeSuggestionWithOpenAI", "NetCoreAI20_RecipeSuggestionWithOpenAI\NetCoreAI.Project20_RecipeSuggestionWithOpenAI.csproj", "{D19CF4E5-73C3-40F2-A02F-3ABFDED011C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAI.Project09.OpenAITranslate", "NetCoreAI.Project09.OpenAITranslate\NetCoreAI.Project09.OpenAITranslate.csproj", "{F4760F0D-1BFE-4EF0-B1E2-1253871C0D88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,10 +80,6 @@ Global
 		{0AA5D116-8BB2-4691-AD0B-14DFFBDDE7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA5D116-8BB2-4691-AD0B-14DFFBDDE7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA5D116-8BB2-4691-AD0B-14DFFBDDE7EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{581FFF65-37D2-491A-90AA-FFE802110FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{581FFF65-37D2-491A-90AA-FFE802110FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{581FFF65-37D2-491A-90AA-FFE802110FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{581FFF65-37D2-491A-90AA-FFE802110FE1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EA5FE59E-260E-4806-B017-37F973C8F973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EA5FE59E-260E-4806-B017-37F973C8F973}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA5FE59E-260E-4806-B017-37F973C8F973}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -128,6 +124,10 @@ Global
 		{D19CF4E5-73C3-40F2-A02F-3ABFDED011C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19CF4E5-73C3-40F2-A02F-3ABFDED011C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19CF4E5-73C3-40F2-A02F-3ABFDED011C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4760F0D-1BFE-4EF0-B1E2-1253871C0D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4760F0D-1BFE-4EF0-B1E2-1253871C0D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4760F0D-1BFE-4EF0-B1E2-1253871C0D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4760F0D-1BFE-4EF0-B1E2-1253871C0D88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
