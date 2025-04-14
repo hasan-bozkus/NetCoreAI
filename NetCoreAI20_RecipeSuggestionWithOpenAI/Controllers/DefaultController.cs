@@ -23,6 +23,7 @@ namespace NetCoreAI20_RecipeSuggestionWithOpenAI.Controllers
         public async Task<IActionResult> CreateRecipe(string ingredients)
         {
             var result = await _openAIService.GetRecipeAsync(ingredients);
+            ViewBag.ingredients = ingredients;
             ViewBag.recipe = result;
             return View();
         }
